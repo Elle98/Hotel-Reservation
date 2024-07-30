@@ -1,18 +1,16 @@
-Il progetto si occupa di gestire le principali funzioni svolte all’interno di un Hotel..
+The project deals with managing the main functions carried out within a Hotel.
 
-Il sistema è diviso in due sezioni: (prenotazioni e clienti/camere)
-La sezione prenotazioni permette al receptionist di visualizzare tutte le prenotazioni oppure di creare, cercare o cancellare una prenotazione.
+The system is divided into two sections: (reservations and customers/rooms) The reservations section allows the receptionist to view all reservations or to create, search or cancel a reservation.
 
-La sezione cliente/camere permette al receptionist di visualizzare l’elenco delle camere disponibili e l’elenco dei
-clienti che hanno pernottato.
+The customer/rooms section allows the receptionist to view the list of available rooms and the list of customers who have stayed overnight.
 
-Il programma funziona nella seguente maniera:
-●	Vengono effettuate delle richieste e domande al receptionist, chiedendo di:
-1.	Selezionare tra lato prenotazioni o clienti/camere
-2.	In caso di risposta “prenotazioni” alla richiesta posta al punto 1; il receptionist ha come opzioni: crea prenotazioni/visualizza prenotazioni oppure gestisci prenotazioni
-3.	Se sceglie la prima opzione gli verrà chiesto a sua volta di digitare “crea” o “visualizza”
-4.	Se digita “crea” inizierà la procedura di inserimento dei propri dati anagrafici per la creazione di una prenotazione.
-5.	Se digita “visualizza”, al receptionist verrà mostrato l’elenco delle prenotazioni che sono state effettuate.
-6.	Tornando indietro se il receptionist digita “gestisci prenotazioni” esso può scegliere se cercare o cancellare una prenotazione (se quest’ultima esiste).
-7.	La ricerca e la rimozione di una prenotazione viene effettuata mediante un id specifico che va ad identificare il cliente.
-8.	Tornando all’inizio se il receptionist digita “clienti/camere” quest’ultimo digitando appositamente “elenco clienti” o "camere disponibili” sarà in grado di visualizzare l’elenco di tutti i clienti che stanno soggiornando nell’Hotel, oppure sarà in grado di visualizzare tutte le camere che sono disponibili, ovvero quelle camere che non sono state prenotate.  
+The program works in the following way: 
+● Requests and questions are made to the receptionist, asking to:
+1. Select between reservations or customers/rooms
+2. In case of response “reservations” to the request in point 1; the receptionist has the options: create reservations/view reservations or manage reservations
+3. If he chooses the first option he will be asked to type “create” or “view”
+4. If he types “create” the procedure for entering his personal data to create a reservation will begin.
+5. If he types “view”, the receptionist will be shown the list of reservations that have been made.
+6. Going back if the receptionist types “manage reservations” he can choose whether to search or delete a reservation (if the latter exists).
+7. The search and removal of a reservation is done using a specific id that identifies the customer.
+8. Going back to the beginning if the receptionist types “customers/rooms” the latter by specifically typing “list of customers” or “available rooms” will be able to view the list of all customers who are staying in the Hotel, or will be able to view all the rooms that are available, or those rooms that have not been booked.
